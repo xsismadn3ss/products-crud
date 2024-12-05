@@ -1,7 +1,7 @@
 # CRUD de productos con react
 Aplicación de consumo de API con React. Para este proyecto se ha utilizado el hook de react llamado ``useContext`` esto con la finalidad de manejar estados complejos en las aplicaciones.
 
-## ¿Por qué Use Context y no UseState?
+## ¿Por qué useContext y no useState?
 La razón por la cual se ha utilizado useContext es porque proporciona un contexto del componente principal y es el que se encarga unicamente de manejar los estados, a esto se le conoce como API Context. Además al crear un contexto para cada funcion o estao se pueden implementar hooks predefinidos que se pueden usar en otra parte de la aplicación.
 
 
